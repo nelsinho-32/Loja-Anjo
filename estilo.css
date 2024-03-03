@@ -1,0 +1,52 @@
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: 0;
+    width: 550px;
+    height: 350px;
+}
+p {
+    font-size: 26px;
+    text-indent: 25px;
+}
+
+
+body{
+    background-image: url(../fundo\ do\ projeto/fundo_1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-variant: small-caps;
+    background: linear-gradient(to right, rgb(232, 232, 101), rgb(78, 65, 65));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-left: 0;
+    width: 420px;
+    height: 55px;
+    border: none;
+    background-color: bisque;
+    font-family: inherit;
+    color:black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+button:hover {
+   transform: scale(1.05);
+}
